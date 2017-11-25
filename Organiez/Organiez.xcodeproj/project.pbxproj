@@ -14,6 +14,9 @@
 		64717AEE1FC9BA6D00ACEC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64717AED1FC9BA6D00ACEC1D /* Assets.xcassets */; };
 		64717AF11FC9BA6D00ACEC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64717AEF1FC9BA6D00ACEC1D /* LaunchScreen.storyboard */; };
 		64717AFC1FC9BA6D00ACEC1D /* OrganiezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64717AFB1FC9BA6D00ACEC1D /* OrganiezTests.swift */; };
+		64717B091FC9F0CE00ACEC1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64717B081FC9F0CE00ACEC1D /* GoogleService-Info.plist */; };
+		7BEAF23D733DDBAE9C0A9194 /* Pods_OrganiezTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4154D912CB74F8B6697E0824 /* Pods_OrganiezTests.framework */; };
+		E156C2455E3B377E8E28362C /* Pods_Organiez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545A989E42A7E1E73D04D3E9 /* Pods_Organiez.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01593E2C85A9343FBFD98A9F /* Pods-OrganiezTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrganiezTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrganiezTests/Pods-OrganiezTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16F8BF2FD87435BC65A7DB48 /* Pods-Organiez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Organiez.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Organiez/Pods-Organiez.debug.xcconfig"; sourceTree = "<group>"; };
+		4154D912CB74F8B6697E0824 /* Pods_OrganiezTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrganiezTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545A989E42A7E1E73D04D3E9 /* Pods_Organiez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Organiez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64717AE01FC9BA6D00ACEC1D /* Organiez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organiez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64717AE31FC9BA6D00ACEC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64717AE51FC9BA6D00ACEC1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		64717AF71FC9BA6D00ACEC1D /* OrganiezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganiezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64717AFB1FC9BA6D00ACEC1D /* OrganiezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiezTests.swift; sourceTree = "<group>"; };
 		64717AFD1FC9BA6D00ACEC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64717B081FC9F0CE00ACEC1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DAA5F092496BD45D4D08DDE /* Pods-OrganiezTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrganiezTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrganiezTests/Pods-OrganiezTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F32183BDC69C4769F2A24D9 /* Pods-Organiez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Organiez.release.xcconfig"; path = "Pods/Target Support Files/Pods-Organiez/Pods-Organiez.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E156C2455E3B377E8E28362C /* Pods_Organiez.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEAF23D733DDBAE9C0A9194 /* Pods_OrganiezTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E8865B3920134FAF8E9C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F8BF2FD87435BC65A7DB48 /* Pods-Organiez.debug.xcconfig */,
+				8F32183BDC69C4769F2A24D9 /* Pods-Organiez.release.xcconfig */,
+				01593E2C85A9343FBFD98A9F /* Pods-OrganiezTests.debug.xcconfig */,
+				6DAA5F092496BD45D4D08DDE /* Pods-OrganiezTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		64717AD71FC9BA6D00ACEC1D = {
 			isa = PBXGroup;
 			children = (
 				64717AE21FC9BA6D00ACEC1D /* Organiez */,
 				64717AFA1FC9BA6D00ACEC1D /* OrganiezTests */,
 				64717AE11FC9BA6D00ACEC1D /* Products */,
+				04E8865B3920134FAF8E9C5C /* Pods */,
+				A6C1E563DF354FF4B430DE37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				64717AE31FC9BA6D00ACEC1D /* AppDelegate.swift */,
+				64717B081FC9F0CE00ACEC1D /* GoogleService-Info.plist */,
 				64717AE51FC9BA6D00ACEC1D /* ViewController.swift */,
 				64717AE71FC9BA6D00ACEC1D /* Main.storyboard */,
 				64717AED1FC9BA6D00ACEC1D /* Assets.xcassets */,
@@ -99,6 +125,15 @@
 			path = OrganiezTests;
 			sourceTree = "<group>";
 		};
+		A6C1E563DF354FF4B430DE37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545A989E42A7E1E73D04D3E9 /* Pods_Organiez.framework */,
+				4154D912CB74F8B6697E0824 /* Pods_OrganiezTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64717B001FC9BA6D00ACEC1D /* Build configuration list for PBXNativeTarget "Organiez" */;
 			buildPhases = (
+				5E28C888761BCB81A57667B3 /* [CP] Check Pods Manifest.lock */,
 				64717ADC1FC9BA6D00ACEC1D /* Sources */,
 				64717ADD1FC9BA6D00ACEC1D /* Frameworks */,
 				64717ADE1FC9BA6D00ACEC1D /* Resources */,
+				31CABD88DCDB05A7B6FBF759 /* [CP] Embed Pods Frameworks */,
+				2A12E8A9F64205ED451FB6EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64717B031FC9BA6D00ACEC1D /* Build configuration list for PBXNativeTarget "OrganiezTests" */;
 			buildPhases = (
+				60ACDED6EFFC676D958D91C3 /* [CP] Check Pods Manifest.lock */,
 				64717AF31FC9BA6D00ACEC1D /* Sources */,
 				64717AF41FC9BA6D00ACEC1D /* Frameworks */,
 				64717AF51FC9BA6D00ACEC1D /* Resources */,
+				E04A62256FC839327D3F5FDA /* [CP] Embed Pods Frameworks */,
+				1F02D68C2A1B428F209E42BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64717AF11FC9BA6D00ACEC1D /* LaunchScreen.storyboard in Resources */,
+				64717B091FC9F0CE00ACEC1D /* GoogleService-Info.plist in Resources */,
 				64717AEE1FC9BA6D00ACEC1D /* Assets.xcassets in Resources */,
 				64717AE91FC9BA6D00ACEC1D /* Main.storyboard in Resources */,
 			);
@@ -196,6 +238,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F02D68C2A1B428F209E42BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrganiezTests/Pods-OrganiezTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A12E8A9F64205ED451FB6EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Organiez/Pods-Organiez-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31CABD88DCDB05A7B6FBF759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Organiez/Pods-Organiez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E28C888761BCB81A57667B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60ACDED6EFFC676D958D91C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E04A62256FC839327D3F5FDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrganiezTests/Pods-OrganiezTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64717ADC1FC9BA6D00ACEC1D /* Sources */ = {
@@ -355,13 +490,15 @@
 		};
 		64717B011FC9BA6D00ACEC1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F8BF2FD87435BC65A7DB48 /* Pods-Organiez.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FARVYQX77A;
 				INFOPLIST_FILE = Organiez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = psarakism.Organiez;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organiez.Organiez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,13 +507,15 @@
 		};
 		64717B021FC9BA6D00ACEC1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F32183BDC69C4769F2A24D9 /* Pods-Organiez.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FARVYQX77A;
 				INFOPLIST_FILE = Organiez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = psarakism.Organiez;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organiez.Organiez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,6 +524,7 @@
 		};
 		64717B041FC9BA6D00ACEC1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01593E2C85A9343FBFD98A9F /* Pods-OrganiezTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +542,7 @@
 		};
 		64717B051FC9BA6D00ACEC1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAA5F092496BD45D4D08DDE /* Pods-OrganiezTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
